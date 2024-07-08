@@ -1,4 +1,5 @@
 package ru.netology.game;
+
 import java.util.Objects;
 
 public class Player {
@@ -35,6 +36,7 @@ public class Player {
     public void setStrength(int strength) {
         this.strength = strength;
     }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
